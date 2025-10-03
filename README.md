@@ -44,30 +44,7 @@ Run the Scene Preview: This command starts a local server and opens the scene in
 npm run start
 ```
 
-🛠️ Project Structure
-The project is organized into a clean, modular structure for easy navigation, precisely as follows:
-
-```
-.
-├── models/
-│   ├── Anim_3Actions.glb
-│   ├── CA_WS1-4_Building.glb
-│   └── curved_screen.glb
-├── package.json
-├── scene.json
-├── src/
-│   ├── index.ts
-│   ├── modules/
-│   │   ├── centerpiece.ts
-│   │   ├── screen.ts
-│   │   ├── teleporter.ts
-│   │   └── venue.ts
-│   └── ui/
-│       └── components/
-│           ├── SkyboxSlider.tsx
-│           └── VideoControls.tsx
-└── tsconfig.json
-```
+### Collaboration
 
 A New Era of Creation
 This project stands as a powerful example of the synergy between human creativity and artificial intelligence. Gemini AI was instrumental throughout the development process, assisting with:
@@ -80,4 +57,4 @@ Code Generation & Debugging: Writing the majority of the scene's TypeScript code
 
 This collaborative workflow represents a significant leap forward in creative development, enabling faster iteration and the creation of more complex and engaging virtual experiences.
 
-Built by MrJStickel with Gemini AI
+Built by MrJStickel with Gemini AI, sponsored by Decentraland Foundation.

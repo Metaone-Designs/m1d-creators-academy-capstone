@@ -1,5 +1,10 @@
+// src/index.ts
+
 // Creators Academy Capstone Project - Main Entry Point
 // This file brings together all the different elements of the scene.
+
+// --- MODULE IMPORTS ---
+// Each module is a self-contained feature of the scene.
 
 import { Quaternion, Vector3 } from '@dcl/sdk/math'
 import { engine, GltfContainer, GltfNodeModifiers, Material, Transform, VideoPlayer } from '@dcl/sdk/ecs'
@@ -127,8 +132,10 @@ export async function main() {
     scale: Vector3.create(0.25, 0.25, 0.25) // Scale down the entire scene to create a miniature effect
   })
 
-  // Create the different parts of the zen garden
+  // Create the animated centerpiece with multiple animation states
   createAnimatedCenterpiece()
+
+  // Create the different parts of the zen garden
   createScenery(root)
   createMovingPlatforms(root)
   //createClickableCrystal(root) // This is commented out, but can be re-enabled to add the interactive crystal
