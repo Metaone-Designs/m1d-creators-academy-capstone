@@ -6,5 +6,4 @@
  */
 export enum EntityNames {
   Ground = "Ground",
-  Tile_1 = "Tile 1",
 } 

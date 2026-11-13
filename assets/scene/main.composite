@@ -110,27 +110,6 @@
             },
             "parent": 0
           }
-        },
-        "514": {
-          "json": {
-            "position": {
-              "x": 8,
-              "y": 0,
-              "z": 8
-            },
-            "scale": {
-              "x": 1,
-              "y": 1,
-              "z": 1
-            },
-            "rotation": {
-              "x": 0,
-              "y": 0,
-              "z": 0,
-              "w": 1
-            },
-            "parent": 513
-          }
         }
       }
     },
@@ -158,15 +137,7 @@
         "serializationType": "protocol-buffer",
         "protocolBuffer": "PBGltfContainer"
       },
-      "data": {
-        "514": {
-          "json": {
-            "src": "assets/asset-packs/glossy_aetherea_tiles/CityTile.glb",
-            "visibleMeshesCollisionMask": 1,
-            "invisibleMeshesCollisionMask": 2
-          }
-        }
-      }
+      "data": {}
     },
     {
       "name": "core-schema::Name",
@@ -184,11 +155,6 @@
         "513": {
           "json": {
             "value": "Ground"
-          }
-        },
-        "514": {
-          "json": {
-            "value": "Tile 1"
           }
         }
       }
@@ -929,11 +895,6 @@
           "json": {
             "value": true
           }
-        },
-        "514": {
-          "json": {
-            "value": true
-          }
         }
       }
     },
@@ -957,11 +918,7 @@
         "properties": {},
         "serializationType": "map"
       },
-      "data": {
-        "514": {
-          "json": {}
-        }
-      }
+      "data": {}
     }
   ]
 }
